@@ -1,5 +1,5 @@
 const { TicketRepository } = require("../repositories");
-const { mailer } = require("../config");
+const  {mailer} = require("../config");
 const AppError = require("../utils/errors/app.error");
 const { StatusCodes } = require("http-status-codes");
 
